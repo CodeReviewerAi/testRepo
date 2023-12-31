@@ -20,4 +20,5 @@ function createdWithMergeAndChangedAfterMerge() {
 function createdOnMainAndChangedAfterWithMerge() {
     console.log('This creates the function on main branch')
     console.log('First change on test branch')
+    console.log('Second change on test branch')
 }
