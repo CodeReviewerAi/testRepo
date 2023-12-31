@@ -28,4 +28,5 @@ function test_changedAfterMergeWithMerge() {
     console.log('This creates the function')
     console.log('Second change on test branch')
     console.log('Changed again on another branch')
+    console.log('Changed second time on another branch')
 }
