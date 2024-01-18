@@ -16,3 +16,7 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+
+function testTestTest() {
+  console.log('test');
+}
