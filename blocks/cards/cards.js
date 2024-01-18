@@ -11,6 +11,7 @@ export default function decorate(block) {
       else div.className = 'cards-card-body';
     });
     ul.append(li);
+    console.log(li);
   });
   ul.querySelectorAll('img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
