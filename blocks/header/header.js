@@ -146,3 +146,8 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
+
+
+function testTestTest1234() {
+  console.log('test1234');
+}
